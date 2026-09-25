@@ -1,13 +1,13 @@
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/baniere_holberton.png"></div>
+
 # Pascal's Triangle
 
-* Novice
-* By: Alexa Orrico, Software Engineer at Holberton School
-* Weight: 1
-* Your score will be updated as you progress.
+## Table of Contents :
 
-## Tasks
+  - [0. Pascal's Triangle](#subparagraph0)
 
-### 0. Pascal's Triangle
+## Task
+### 0. Pascal's Triangle <a name='subparagraph0'></a>
 
 Create a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal's triangle of `n`:
 
@@ -33,7 +33,7 @@ def print_triangle(triangle):
 if __name__ == "__main__":
     print_triangle(pascal_triangle(5))
 
-guillaume@ubuntu:~/$
+guillaume@ubuntu:~/$ 
 guillaume@ubuntu:~/$ ./0-main.py
 [1]
 [1,1]
@@ -48,3 +48,9 @@ guillaume@ubuntu:~/$
 * GitHub repository: `holbertonschool-interview`
 * Directory: `pascal_triangle`
 * File: `0-pascal_triangle.py`
+
+---
+
+
+## Authors
+Ksyv - [GitHub Profile](https://github.com/ksyv)
