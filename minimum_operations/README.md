@@ -1,26 +1,26 @@
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/baniere_holberton.png"></div>
+
 # Minimum Operations
 
-* Master
-* By: Carrie Ybay, Software Engineer at Holberton School
-* Weight: 1
-* Your score will be updated as you progress.
+## Table of Contents :
 
+  - [0. Minimum Operations](#subparagraph0)
 ## Requirements
 
 ### General
 
-* Allowed editors: `vi`, `vim`, `emacs`
-* All your files will be interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
-* All your files should end with a new line
-* The first line of all your files should be exactly `#!/usr/bin/python3`
-* A `README.md` file, at the root of the folder of the project, is mandatory
-* Your code should be documented
-* Your code should use the `PEP 8` style (version 1.7.x)
-* All your files must be executable
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/python3`
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should be documented
+- Your code should use the `PEP 8` style (version 1.7.x)
+- All your files must be executable
 
-## Tasks
 
-### 0. Minimum Operations
+## Task
+### 0. Minimum Operations <a name='subparagraph0'></a>
 
 In a text file, there is a single character `H`. Your text editor can execute only two operations in this file: `Copy All` and `Paste`. Given a number `n`, write a method that calculates the fewest number of operations needed to result in exactly `n` `H` characters in the file. Be smart about how you utilize the memory!
 
@@ -31,7 +31,9 @@ In a text file, there is a single character `H`. Your text editor can execute on
 **Example:**
 
 `n = 9`
+
 `H` => `Copy All` => `Paste` => `HH` => `Paste` =>`HHH` => `Copy All` => `Paste` => `HHHHHH` => `Paste` => `HHHHHHHHH`
+
 Number of operations: `6`
 
 ```python
@@ -64,3 +66,9 @@ carrie@ubuntu:~/minoperations$
 * GitHub repository: `holbertonschool-interview`
 * Directory: `minimum_operations`
 * File: `0-minoperations.py`
+
+---
+
+
+## Authors
+Ksyv - [GitHub Profile](https://github.com/ksyv)
