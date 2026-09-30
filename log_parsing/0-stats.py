@@ -28,12 +28,17 @@ if __name__ == "__main__":
                 continue
 
             try:
-                status_code = int(parts[-2])
                 file_size = int(parts[-1])
             except ValueError:
                 continue
 
             total_size += file_size
+
+            try:
+                status_code = int(parts[-2])
+            except ValueError:
+                status_code = None
+
             if status_code in valid_status_codes:
                 status_codes[status_code] = status_codes.get(
                     status_code, 0) + 1
