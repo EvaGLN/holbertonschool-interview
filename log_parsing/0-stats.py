@@ -19,12 +19,12 @@ if __name__ == "__main__":
 
     try:
         for line in sys.stdin:
-            parts = line.split()
+            stripped = line.strip()
+            parts = stripped.split()
 
             if len(parts) < 2:
                 continue
-            if not line.strip().endswith('"GET /projects/260 HTTP/1.1" ' +
-                                         parts[-2] + ' ' + parts[-1]):
+            if '"GET /projects/260 HTTP/1.1"' not in stripped:
                 continue
 
             try:
