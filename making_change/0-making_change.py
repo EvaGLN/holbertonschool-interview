@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Change comes from within"""
 
+
 def makeChange(coins, total):
     """fewest number of coins to meet a given amount total"""
 
@@ -10,7 +11,7 @@ def makeChange(coins, total):
     dp = [float('inf')] * (total + 1)
     dp[0] = 0
 
-    for amount in range(1, total +1):
+    for amount in range (1, total +1):
         for coin in coins:
             if coin <= amount:
                 dp[amount] = min(dp[amount], dp[amount - coin] + 1)
