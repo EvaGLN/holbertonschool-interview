@@ -3,7 +3,7 @@
 
 
 def island_perimeter(grid):
-    """island_perimeter"""
+    """Return perimeter of island described"""
 
     perimeter = 0
     rows = len(grid)
@@ -22,5 +22,3 @@ def island_perimeter(grid):
                     perimeter -= 2
 
     return perimeter
-
-    
